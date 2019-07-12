@@ -4,15 +4,16 @@
 <head>
 
   <title>Home</title>
+  <script src="notes.js"></script>
   <link rel="stylesheet" href="base.css"> <!-- Sizing of stuff. -->
-  <link rel="stylesheet" href="purp.css"> <!-- Pretty colors! -->
+  <link rel="stylesheet" href="pine.css"> <!-- Pretty colors! -->
 
   <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
 
 </head>
 
 
-<body>
+<body onload="display_saved_note()">
 
   <div id="main">
     <h1>Welcome.</h1>
@@ -27,11 +28,19 @@
               <span v-if="index == section.sites.length - 1">]</span>
               <span v-else>/ </span>
             </span>
-            
+
           </td>
         </tr>
       </tbody>
     </table>
+  </div>
+
+  <div id="notes">
+      <textarea id="notetest" rows="20" cols="50" wrap="hard"></textarea>
+  </div>
+  <div id="notebuttons">
+    <a href="javascript:save()" class="button">Save</a>
+    <a href="javascript:wipe()" class="button">Clear</a>
   </div>
 
   <script src="resources/vue.js"></script>

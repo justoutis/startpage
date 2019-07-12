@@ -14,3 +14,8 @@ a:hover {
 .links {
   color: #3f3f3f;
 }
+
+textarea {
+  background: #2e4345;
+  color: #82a88e;
+}

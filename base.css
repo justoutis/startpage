@@ -29,7 +29,23 @@ tr {
   max-height: 300px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
   margin-top: -150px;
   margin-left: -217px;
+}
+
+#notes {
+  max-width: 430px;
+  max-height: 20px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+#notebuttons {
+  max-width: 430px;
+  max-height: 250px;
+  position: absolute;
+  top: 85px;
+  left: 38%;
 }

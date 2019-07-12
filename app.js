@@ -3,66 +3,54 @@ var app = new Vue({
   data: {
     sections: [
       {
-        name: 'UNI',
+        name: 'VIDEOS',
         sites: [
-          { name: 'ecampus', url: 'https://ecampus.tamu.edu' },
-          { name: 'google_docs', url: 'https://docs.google.com'}
+          { name: 'youtube', url: 'https://youtube.com' },
+          { name: 'plex', url: 'https://app.plex.tv'},
+          { name: 'netflix', url: 'https://netflix.com' }
         ]
       },
       {
-        name: 'NEWS',
+        name: 'CHAN',
         sites: [
-          { name: 'hacker_news', url: 'https://news.ycombinator.com' },
-          { name: '538', url: 'https://fivethirtyeight.com' }
+          { name: 'g', url: 'https://4chan.org/g/' },
+          { name: 'britfeel', url: 'https://4chan.org/r9k/#s=britfeel' },
+          { name: 'fit', url: 'https://4channel.org/fit/' },
+          { name: 'lit', url: 'https://4channel.org/lit/' },
         ]
       },
       {
         name: 'SOCIAL',
         sites: [
-          { name: 'twitter', url: 'https://twitter.com' },
-          { name: 'instagram', url: 'https://instagram.com' }
-        ]
-      },
-      {
-        name: 'MEDIA',
-        sites: [
-          { name: 'plex', url: 'https://plex.robertism.com' },
-          { name: 'netflix', url: 'https://netflix.com' }
+          { name: 'r/privacy', url: 'https://reddit.com/r/privacy' },
+          { name: 'instagram', url: 'https://instagram.com' },
+          { name: 'twitter', url: 'https://twitter.com' }
         ]
       },
       {
         name: 'CODE',
         sites: [
           { name: 'github', url: 'https://github.com' },
-          { name: 'gitlab', url: 'https://gitlab.com' },
-          { name: 'elixir', url: 'https://hexdocs.pm/elixir/Kernel.html' }
+          { name: 'scaleway', url: 'https://scaleway.com' },
+          { name: 'njalla', url: 'https://njal.la'}
         ]
       },
       {
-        name: 'MUSIC',
+        name: 'CTFS',
         sites: [
-          { name: 'scloud', url: 'https://soundcloud.com/stream' },
-          { name: 'chiru.no', url: 'https://www.reddit.com/r/electronicmusic' },
-          { name: 'mellow', url: 'https://fpgaminer.github.io/vip-html5-player/#Mellow' },
+          { name: 'hackthebox', url: 'https://hackthebox.eu' },
+          { name: 'vulnhub', url: 'https://vulnhub.com' },
         ]
       },
       {
-        name: '"FREE"',
+        name: 'MISC',
         sites: [
-          { name: 'iptorrents', url: 'https://iptorrents.com' },
-          { name: 'dl', url: 'https://dl.robertism.com' },
-          { name: 'books', url: 'books.html' },
-        ]
-      },
-      {
-        name: 'CHANS',
-        sites: [
-          { name: 'g', url: 'https://boards.4channel.org/g/' },
-          { name: 'f', url: 'https://boards.4chan.org/f/' },
-          { name: 'mu', url: 'https://boards.4channel.org/mu/' },
+          { name: 'amazon', url: 'https://amazon.co.uk' },
+          { name: 'protonmail', url: 'https://protonmail.com' }
         ]
       }
     ],
+
     trello: {
       key: '',
       token: '',
