@@ -41,7 +41,7 @@ tr {
 }
 
 #notebuttons {
-  position: absolute;
+  position: fixed;
   top: 75%;
   left: 38%;
 }

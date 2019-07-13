@@ -48,7 +48,7 @@ var app = new Vue({
         sites: [
           { name: 'amazon', url: 'https://amazon.co.uk' },
           { name: 'protonmail', url: 'https://protonmail.com' },
-          { name: 'amazon', url: 'books.html' }
+          { name: 'fitness', url: 'fitness.html' }
         ]
       }
     ],
