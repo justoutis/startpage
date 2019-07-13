@@ -50,6 +50,13 @@ var app = new Vue({
           { name: 'protonmail', url: 'https://protonmail.com' },
           { name: 'fitness', url: 'fitness.html' }
         ]
+      },
+      {
+        name: 'NOTES',
+        sites: [
+          { name: 'SAVE', url: 'javascript:save()' },
+          { name: 'CLEAR', url: 'javascript:wipe()' }
+        ]
       }
     ],
 
