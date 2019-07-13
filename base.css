@@ -36,6 +36,7 @@ tr {
 
 #notes {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 25%;
+  margin-top: -180px;
 }
