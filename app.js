@@ -40,13 +40,15 @@ var app = new Vue({
         sites: [
           { name: 'hackthebox', url: 'https://hackthebox.eu' },
           { name: 'vulnhub', url: 'https://vulnhub.com' },
+          { name: 'red team', url: 'redteam.html' }
         ]
       },
       {
         name: 'MISC',
         sites: [
           { name: 'amazon', url: 'https://amazon.co.uk' },
-          { name: 'protonmail', url: 'https://protonmail.com' }
+          { name: 'protonmail', url: 'https://protonmail.com' },
+          { name: 'amazon', url: 'books.html' }
         ]
       }
     ],

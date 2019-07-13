@@ -35,17 +35,13 @@ tr {
 }
 
 #notes {
-  max-width: 430px;
-  max-height: 20px;
   position: absolute;
   top: 20%;
   left: 25%;
 }
 
 #notebuttons {
-  max-width: 430px;
-  max-height: 250px;
   position: absolute;
-  top: 85px;
+  top: 75%;
   left: 38%;
 }
