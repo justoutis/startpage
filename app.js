@@ -38,9 +38,9 @@ var app = new Vue({
       {
         name: 'CTFS',
         sites: [
-          { name: 'hackthebox', url: 'https://hackthebox.eu' },
+          { name: 'htb', url: 'https://hackthebox.eu' },
           { name: 'vulnhub', url: 'https://vulnhub.com' },
-          { name: 'red team', url: 'redteam.html' }
+          { name: 'red team(..)', url: 'redteam.html' }
         ]
       },
       {
@@ -48,7 +48,7 @@ var app = new Vue({
         sites: [
           { name: 'amazon', url: 'https://amazon.co.uk' },
           { name: 'protonmail', url: 'https://protonmail.com' },
-          { name: 'fitness', url: 'fitness.html' }
+          { name: 'fitness(..)', url: 'fitness.html' }
         ]
       },
       {
