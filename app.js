@@ -3,6 +3,16 @@ var app = new Vue({
   data: {
     sections: [
       {
+        name: 'NEWS',
+        sites: [
+          { name: 'HackerNews', url: 'https://news.ycombinator.com' },
+          { name: 'r/privacy', url: 'https://reddit.com/r/privacy' },
+          { name: 'r/hacking', url: 'https://reddit.com/r/hacking'},
+          { name: 'r/news', url: 'https://reddit.com/r/news'}
+
+        ]
+      },
+      {
         name: 'VIDEOS',
         sites: [
           { name: 'youtube', url: 'https://youtube.com' },
@@ -22,7 +32,6 @@ var app = new Vue({
       {
         name: 'SOCIAL',
         sites: [
-          { name: 'r/privacy', url: 'https://reddit.com/r/privacy' },
           { name: 'instagram', url: 'https://instagram.com' },
           { name: 'twitter', url: 'https://twitter.com' }
         ]
