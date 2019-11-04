@@ -47,3 +47,8 @@ tr {
   left: 58%;
   margin-top: -180px;
 }
+
+#twitch-embed {
+  position: absolute;
+  left: 60%;
+}
