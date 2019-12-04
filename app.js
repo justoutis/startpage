@@ -6,9 +6,9 @@ var app = new Vue({
         name: 'NEWS',
         sites: [
           { name: 'HackerNews', url: 'https://news.ycombinator.com' },
-          { name: 'r/privacy', url: 'https://reddit.com/r/privacy' },
-          { name: 'r/hacking', url: 'https://reddit.com/r/hacking'},
-          { name: 'r/news', url: 'https://reddit.com/r/news'}
+          { name: 'BBC', url: 'https://www.bbc.co.uk/news' },
+          { name: 'Sky', url: 'https://news.sky.com/'},
+          { name: 'Sky [YT]', url: 'https://www.youtube.com/watch?v=9Auq9mYxFEE'}
 
         ]
       },
